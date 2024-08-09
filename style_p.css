@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #ffffff;
+   }
+
+   header {
+    background-color: #00f7ff;
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding: 0.5em 0;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+   }
+
+   nav {
+    background-color: #00f7ff;
+    display: flex;
+    padding: 0px 0;
+    position: fixed;
+    width: 100%;
+    top: 46px;
+    left: 215px;
+    }
+
+    nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    nav a:hover {
+    background-color: #0056b3;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .He2{
+    color: rgb(70, 70, 70);
+    position: fixed;
+    width: 100%;
+    }
+   .nama {
+     display: flex;
+   }
+   header img {
+    height: 70px;
+    margin-right: 10px;
+   }
+   .sidebar {
+    background-color: #535353;
+    color: black;
+    padding: 1em; 
+    padding-top: 7em;
+
+   }
+   .sb {
+     padding: 10px 20px;
+     color: #fff;
+     text-decoration: none;
+   }
+
+   .product {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+    width: 23%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   } 
+   .product img {
+    max-width: 100%;
+   }
+   .product h3 {
+    color: #333;
+   }
+   .product p {
+    color: #666;
+     }
+   .product .harga {
+    color: #E74C3C;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+   }
+   .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 7em;
+    
+   }
+   nav {
+    margin-bottom: 0.5em;
+   }
+   nav a {
+    margin: 0 3em;
+    text-decoration: none;
+    color: #2c2c2c;
+   }
+   footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+   }
+   .c_utama{
+     display: flex;
+   }
+   .button {
+       display: inline-block;
+       padding: 10px 20px;
+       background-color: #007bff;
+       color: #fff;
+       text-decoration: none;
+       border: none;
+       border-radius: 5px;
+       cursor: pointer;
+    }
+     .button:hover {
+       background-color: #0056b3;
+    }
